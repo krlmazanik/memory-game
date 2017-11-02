@@ -10,15 +10,10 @@ h2 {
 
 .closed {
 	background-color: #08b26b !important;
+	transition: background 0.5s;	
 }
 
-.opened {
-	transition: background 0.5s;
-}
-
-/*.closed:hover {
-	background-color: #02e285;
-}*/
+.opened {}
 
 .done {
 	background-color: #ffffff;
@@ -26,4 +21,8 @@ h2 {
 
 .done:hover {
 	background-color: #ffffff;
+}
+
+#board {
+	margin-top: 2.5%;
 }
